@@ -18,4 +18,5 @@ int main()
   {
     printf("points are not collinear");
   }
+  return 0;
 }

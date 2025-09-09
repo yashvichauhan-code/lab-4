@@ -27,4 +27,5 @@ int main()
     {
         printf("third rectangle has the highest perimeter");
     }
+    return 0;
 }
