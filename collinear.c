@@ -5,7 +5,7 @@ int main()
 {
   int x1, y1, x2, y2, x3, y3;
   printf("enter coordinates of first point (x1 y1): ");
-  scanf("%d %d", &x1,&x2);
+  scanf("%d %d", &x1,&y1);
   printf("enter coordinates of second point (x2,y2): ");
   scanf("%d %d", &x2,&y2);
   printf("enter coordinates of third point (x3,y3): ");
