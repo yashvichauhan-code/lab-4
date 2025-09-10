@@ -14,22 +14,22 @@ int main()
         else
             days+=365;
     }
-    day= (days+1)%7;
+    day= (days)%7;
     printf("1st january %d is a ", year);
     switch(day){
-        case 0: printf("sunday\n");
+        case 0: printf("monday\n");
         break;
-        case 1: printf("monday\n");
+        case 1: printf("tuesday\n");
         break;
-        case 2: printf("tuesday\n");
+        case 2: printf("wednesday\n");
         break;
-        case 3: printf("wednesday\n");
+        case 3: printf("thursday\n");
         break;
-        case 4: printf("thursday\n");
+        case 4: printf("friday\n");
         break;
-        case 5: printf("friday\n");
+        case 5: printf("saturday\n");
         break;
-        case 6: printf("saturday\n");
+        case 6: printf("sunday\n");
         break;
     }
     return 0;
